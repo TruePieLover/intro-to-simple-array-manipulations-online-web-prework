@@ -18,7 +18,7 @@ def shift_with_args(array)
 end
 
 def using_concat(arrayone,arraytwo)
-  arraytwo.concat(arrayone)
+  arrayone.concat(arrayone)
 end
 
 def using_uniq(array)
